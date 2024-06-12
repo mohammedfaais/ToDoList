@@ -1,9 +1,10 @@
-import react from "react";
+import React from "react";
+import "../Styles/Header.css";
 
 function Header() {
   return (
     <div>
-      <h1>Header Commit Check</h1>
+      <h2 className="todo-header">To Do List</h2>
     </div>
   );
 }
